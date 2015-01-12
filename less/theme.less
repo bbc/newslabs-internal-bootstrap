@@ -11,27 +11,38 @@
 
 @import "bootstrap.less";
 
-// Add CSS Customizations to your theme here.
+//Add clear space to the bottom of every page
+body {
+  padding-bottom: 60px;
+}
 
+/* Helper class */
+.no-margin {
+    margin: 0 !important;
+}
+
+/* Use heading style similar to BBC News responsive beta */
 h1,
 h2,
 h3,
 .panel-heading {
     font-weight: bold;
     letter-spacing: -1px;
-    line-height: 24px;
     color: #505050;
     font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
 }
 
 .panel-heading {
-    font-size: 1.846em; /* 13px < 24px */
+    font-size: 1.846em;
+    padding: 5px 10px;
 }
 
-.list-group-item.active .list-group-item-text {
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text {
     color: #fff;
 }
 
+/* Remove rounded corners from buttons and most other interface elements */
 code,
 pre,
 .form-control,
@@ -41,6 +52,28 @@ pre,
 .nav-pills > li > a,
 .list-group a,
 .well,
+.label,
+.input-group-addon,
 .btn {
     border-radius: 0 !important;
+}
+
+.jumbotron {
+    padding: 20px 20px;
+}
+
+.jumbotron h1 {
+    margin: 0;
+    color: #000;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.label {
+    font-weight: 600;
+}
+
+table th {
+    background: #ededed;
+    font-weight: normal;
 }
