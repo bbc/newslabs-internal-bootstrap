@@ -1,5 +1,5 @@
 /*!
- * BBC News Labs Boostrap Theme v0.1.0
+ * BBC News Labs Boostrap Theme v1.0.0
  *
  * Copyright 2015 BBC
  * Licensed under the Apache License v2.0
@@ -13,7 +13,8 @@
 
 //Add clear space to the bottom of every page
 body {
-  padding-bottom: 60px;
+    padding-bottom: 60px;
+    font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
 }
 
 /* Helper class */
@@ -29,12 +30,12 @@ h3,
     font-weight: bold;
     letter-spacing: -1px;
     color: #505050;
-    font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
 }
 
 .panel-heading {
     font-size: 1.846em;
-    padding: 5px 10px;
+    line-height: 1.846em;
+    padding: 0px 10px;
 }
 
 .list-group-item.active .list-group-item-text,
@@ -76,4 +77,22 @@ pre,
 table th {
     background: #ededed;
     font-weight: normal;
+}
+
+.navbar-toggle {
+    border-radius: 0;
+    margin: 1px;
+    padding: 16px;
+    background-color: #fe3535;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fe3535;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #a30101;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
 }

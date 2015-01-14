@@ -1,12 +1,13 @@
 {
-  "name": "bbcnewslabs-bootstrap-theme",
-  "version": "0.0.1",
+  "name": "bbcnewslabs-bootstrap",
+  "version": "1.0.0",
   "private": true,
-  "author": "Iain Collins",
+  "author": "BBC News Labs",
   "main": "dist/bootstrap.css",
+  "homepage": "http://bootstrap.bbcnewslabs.co.uk",
   "themestrap": {
     "name": "BBC News Labs Bootstrap",
-    "repo": "https://github.com/iaincollins/themestrap"
+    "repo": "https://github.com/BBC-News-Labs/bbcnewslabs-bootstrap"
   },
   "ignore": [
     "**/.*",
