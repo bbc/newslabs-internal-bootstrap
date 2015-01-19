@@ -79,20 +79,38 @@ table th {
     font-weight: normal;
 }
 
-.navbar-toggle {
+.navbar .navbar-toggle {
     border-radius: 0;
     margin: 1px;
     padding: 16px;
-    background-color: #fe3535;
+    background-color: transparent;
+    z-index: 100;
 }
 
-.navbar-default .navbar-toggle {
-    border-color: #fe3535;
+.navbar .navbar-toggle {
+    border-color: transparent;
 }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #a30101;
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: transparent;
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar .navbar-toggle .icon-bar {
   background-color: #fff;
+}
+
+@media (max-width: 767px) {
+        .navbar .navbar-brand {
+            text-align: center;
+            width: 100%;
+            position: absolute;
+        }
+        
+        .navbar .dropdown-header {
+            color: #fff;
+            opacity: 0.75;
+        }
+    
+        .navbar .navbar-brand:hover {
+            background: transparent;
+        }
 }
