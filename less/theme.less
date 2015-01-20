@@ -1,5 +1,5 @@
 /*!
- * BBC News Labs Boostrap Theme v1.0.0
+ * BBC News Labs Boostrap Theme v1.0.2
  *
  * Copyright 2015 BBC
  * Licensed under the Apache License v2.0
@@ -79,12 +79,12 @@ table th {
     font-weight: normal;
 }
 
+/* Navbar apperance overrides */
 .navbar .navbar-toggle {
     border-radius: 0;
     margin: 1px;
     padding: 16px;
     background-color: transparent;
-    z-index: 100;
 }
 
 .navbar .navbar-toggle {
@@ -99,12 +99,19 @@ table th {
 }
 
 @media (max-width: 767px) {
+    
+        /* Center title on mobile */
         .navbar .navbar-brand {
             text-align: center;
             width: 100%;
             position: absolute;
         }
         
+        /* Have hamburger menu display on top of title */
+        .navbar .navbar-toggle {
+            z-index: 100;
+        }
+
         .navbar .dropdown-header {
             color: #fff;
             opacity: 0.75;
