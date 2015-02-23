@@ -12,7 +12,7 @@ This theme was created with Themestrap, see README-themestrap.md for details.
 
 To install this theme with Bower just run:
 
-    bower install https://github.com/BBC-News-Labs/bbcnewslabs-internal-bootstrap#master
+    bower install https://github.com/BBC-News-Labs/bbcnewslabs-internal-bootstrap.git#master
 
 # Other useful resources
 
