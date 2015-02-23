@@ -6880,6 +6880,18 @@ pre,
   font-weight: 600;
 }
 
+table tr.info,
+table tr.success,
+table tr.warning,
+table tr.danger {
+  color: #fff;
+}
+
+a.alert-link {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
 table th {
   font-weight: normal;
   background: #ededed;

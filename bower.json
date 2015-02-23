@@ -1,6 +1,6 @@
 {
   "name": "bbcnewslabs-bootstrap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "author": "BBC News Labs",
   "main": "dist/bootstrap.css",
