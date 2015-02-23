@@ -1,24 +1,18 @@
-# BBC News Labs Bootstrap
+# BBC News Labs Internal Bootstrap
 
-This is a BBC News Labs theme for Bootstrap, loosely based on the style of the beta version of the new BBC News responsive site.
+This is a BBC News Labs theme for Bootstrap designed for internal tools.
 
-e.g. http://www.bbc.co.uk/news/events/vote2014
+It takes visual cues from existing internal CMS software like Vivo, iBroadcast and iSite. 
 
-This gives us a single theme to use across BBC News Labs experiments to quickly build prototypes with a unifed apperance, while being able to take advantage of the vast number of Bootstrap plugins and compatible extensions.
+e.g. http://www.bbc.co.uk/blogs/internet/entries/a4ff8c67-7b3c-322c-b771-d43323b221cb
 
 This theme was created with Themestrap, see README-themestrap.md for details.
 
-# Example
-
-Example page for this theme: 
-
-http://bootstrap.bbcnewslabs.co.uk
-
 ## How to use it
 
-To use this theme, just add this line to inside your <head> element:
+To install this theme with Bower just run:
 
-    <link rel="stylesheet" href="http://bootstrap.bbcnewslabs.co.uk/dist/css/bootstrap.css"/>
+    bower install https://github.com/BBC-News-Labs/bbcnewslabs-internal-bootstrap#master
 
 # Other useful resources
 
