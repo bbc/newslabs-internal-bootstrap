@@ -1,13 +1,13 @@
 {
-  "name": "bbcnewslabs-bootstrap",
-  "version": "1.0.4",
+  "name": "bbcnewslabs-internal-bootstrap",
+  "version": "1.0.0",
   "private": true,
   "author": "BBC News Labs",
   "main": "dist/bootstrap.css",
-  "homepage": "http://bootstrap.bbcnewslabs.co.uk",
+  "homepage": "http://internal-bootstrap.bbcnewslabs.co.uk",
   "themestrap": {
-    "name": "BBC News Labs Bootstrap",
-    "repo": "https://github.com/BBC-News-Labs/bbcnewslabs-bootstrap"
+    "name": "BBC News Labs Internal Bootstrap",
+    "repo": "https://github.com/BBC-News-Labs/bbcnewslabs-internal-bootstrap"
   },
   "ignore": [
     "**/.*",
